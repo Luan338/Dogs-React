@@ -20,9 +20,9 @@ const LoginForm = () => {
     }
 }
   return(
-      <section>
-          <h1>Login</h1>
-          <form action='' onSubmit={handleSubmit}>
+      <section className="animeLeft">
+          <h1 className="title">Login</h1>
+          <form action="" onSubmit={handleSubmit}>
               <Input 
               type= "text"
               name= "email"
