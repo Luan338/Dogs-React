@@ -48,6 +48,10 @@ input {
   margin: 0 auto;
 }
 
+.mainContainer {
+  margin-top: 2rem;
+}
+
 a {
   text-decoration: none;
   color: #333;
@@ -86,4 +90,14 @@ a {
     opacity: 1;
     transform: initial;
   }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh + 10rem);
+}
+
+.AppBody {
+  flex: 1;
 }
